@@ -9,6 +9,12 @@ export const ProductSchema = z.object({
   updatedAt: z.string().optional(),
   title: z.string({ required_error: "Title is required" }),
   category: z.string({ required_error: "Category is required" }),
+  ram: z.any(),
+  internal_memory: z.any(),
+  cpu: z.string(),
+  gpu: z.string(),
+  cooling: z.any().optional(),
+  optionals: z.array(z.string()),
   price: z.number(),
   description: z.string(),
 }).strict(); // Add strict mode to reject extra properties
@@ -19,8 +25,8 @@ export function validateProduct(data) {
     const result = ProductSchema.parse(data);
     return { valid: true, data: result };
   } catch (error) {
-    return { 
-      valid: false, 
+    return {
+      valid: false,
       errors: error.errors.map(err => ({
         field: err.path.join('.'),
         message: err.message
