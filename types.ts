@@ -1,11 +1,11 @@
 export type Product = {
     title: string;
     category: string;
-    ram: (number | string);
-    internal_memory: (number | string);
+    ram: string;
+    internal_memory: string;
     cpu: string;
     gpu: string;
-    cooling?: (string | null);
+    cooling?: string;
     optionals: string[];
     price: number;
     description: string;
