@@ -1,1 +1,178 @@
-[]
+[
+  {
+    "title": "MSI Stealth 16 Studio",
+    "category": "laptop",
+    "ram": "32GB",
+    "internal_memory": "1TB SSD",
+    "cpu": "Intel Core i9-13900H",
+    "gpu": "NVIDIA RTX 4070",
+    "cooling": "Vapor Chamber",
+    "optionals": [
+      "Thunderbolt 4",
+      "RGB Keyboard"
+    ],
+    "price": 2499,
+    "description": "Laptop da gaming ultra sottile con prestazioni da workstation",
+    "id": 1,
+    "createdAt": "2025-09-16T10:38:37.129Z",
+    "updatedAt": "2025-09-16T10:38:37.129Z"
+  },
+  {
+    "title": "ASUS ROG Strix G16",
+    "category": "laptop",
+    "ram": "16GB",
+    "internal_memory": "512GB SSD",
+    "cpu": "Intel Core i7-13650HX",
+    "gpu": "NVIDIA RTX 4060",
+    "cooling": "Dual Fan",
+    "optionals": [
+      "Aura Sync",
+      "MUX Switch"
+    ],
+    "price": 1799,
+    "description": "Notebook da gaming con display ad alta frequenza",
+    "id": 2,
+    "createdAt": "2025-09-16T10:39:03.880Z",
+    "updatedAt": "2025-09-16T10:39:03.880Z"
+  },
+  {
+    "title": "Apple MacBook Pro M3",
+    "category": "laptop",
+    "ram": "16GB",
+    "internal_memory": "1TB SSD",
+    "cpu": "Apple M3",
+    "gpu": "Integrated",
+    "optionals": [
+      "Touch ID",
+      "Retina Display"
+    ],
+    "price": 2199,
+    "description": "Laptop professionale con chip Apple Silicon",
+    "id": 3,
+    "createdAt": "2025-09-16T10:39:55.892Z",
+    "updatedAt": "2025-09-16T10:39:55.892Z"
+  },
+  {
+    "title": "Samsung Galaxy S24 Ultra",
+    "category": "smartphone",
+    "ram": "12GB",
+    "internal_memory": "512GB",
+    "cpu": "Snapdragon 8 Gen 3",
+    "gpu": "Adreno 750",
+    "optionals": [
+      "S-Pen",
+      "120Hz Display"
+    ],
+    "price": 1399,
+    "description": "Smartphone top di gamma con fotocamera da 200MP",
+    "id": 4,
+    "createdAt": "2025-09-16T10:40:40.538Z",
+    "updatedAt": "2025-09-16T10:40:40.538Z"
+  },
+  {
+    "title": "Sony Xperia 1 V",
+    "category": "smartphone",
+    "ram": "12GB",
+    "internal_memory": "256GB",
+    "cpu": "Snapdragon 8 Gen 2",
+    "gpu": "Adreno 740",
+    "optionals": [
+      "Cinema Pro",
+      "Audio Hi-Res"
+    ],
+    "price": 1299,
+    "description": "Smartphone per content creator con funzioni video avanzate",
+    "id": 5,
+    "createdAt": "2025-09-16T10:41:03.215Z",
+    "updatedAt": "2025-09-16T10:41:03.215Z"
+  },
+  {
+    "title": "Lenovo Legion Tower 7i",
+    "category": "desktop",
+    "ram": "32GB",
+    "internal_memory": "2TB SSD",
+    "cpu": "Intel Core i9-13900KF",
+    "gpu": "NVIDIA RTX 4080",
+    "cooling": "Liquid Cooling",
+    "optionals": [
+      "Wi-Fi 6E",
+      "ARGB Lighting"
+    ],
+    "price": 2999,
+    "description": "PC desktop da gaming con raffreddamento a liquido",
+    "id": 6,
+    "createdAt": "2025-09-16T10:41:20.189Z",
+    "updatedAt": "2025-09-16T10:41:20.189Z"
+  },
+  {
+    "title": "HP Omen 45L",
+    "category": "desktop",
+    "ram": "64GB",
+    "internal_memory": "2TB SSD",
+    "cpu": "Intel Core i9-13900K",
+    "gpu": "NVIDIA RTX 4090",
+    "cooling": "Cryo Chamber",
+    "optionals": [
+      "Tool-less Access",
+      "HyperX RAM"
+    ],
+    "price": 3999,
+    "description": "Desktop da gaming estremo con raffreddamento avanzato",
+    "id": 7,
+    "createdAt": "2025-09-16T10:41:37.136Z",
+    "updatedAt": "2025-09-16T10:41:37.136Z"
+  },
+  {
+    "title": "Raspberry Pi 5",
+    "category": "microcomputer",
+    "ram": "8GB",
+    "internal_memory": "microSD",
+    "cpu": "Broadcom BCM2712",
+    "gpu": "VideoCore VII",
+    "optionals": [
+      "GPIO",
+      "Dual HDMI"
+    ],
+    "price": 79,
+    "description": "Microcomputer per progetti embedded e IoT",
+    "id": 8,
+    "createdAt": "2025-09-16T10:42:02.559Z",
+    "updatedAt": "2025-09-16T10:42:02.559Z"
+  },
+  {
+    "title": "Framework Laptop 13",
+    "category": "laptop",
+    "ram": "16GB",
+    "internal_memory": "1TB SSD",
+    "cpu": "Intel Core Ultra 7",
+    "gpu": "Integrated",
+    "cooling": "Fan",
+    "optionals": [
+      "Modular Ports",
+      "Repairable Design"
+    ],
+    "price": 1399,
+    "description": "Laptop modulare e riparabile per sviluppatori",
+    "id": 9,
+    "createdAt": "2025-09-16T10:42:24.938Z",
+    "updatedAt": "2025-09-16T10:42:24.938Z"
+  },
+  {
+    "title": "Steam Deck OLED",
+    "category": "gaming",
+    "ram": "16GB",
+    "internal_memory": "1TB SSD",
+    "cpu": "AMD APU Z1 Extreme",
+    "gpu": "RDNA 3",
+    "cooling": "Fan",
+    "optionals": [
+      "Docking Station",
+      "Trackpads"
+    ],
+    "price": 649,
+    "description": "Console portatile per giochi PC con schermo OLED",
+    "id": 10,
+    "createdAt": "2025-09-16T10:42:42.054Z",
+    "updatedAt": "2025-09-16T10:42:42.054Z"
+  }
+]
