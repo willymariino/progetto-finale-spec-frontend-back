@@ -174,5 +174,417 @@
     "id": 10,
     "createdAt": "2025-09-16T10:42:42.054Z",
     "updatedAt": "2025-09-16T10:42:42.054Z"
+  },
+  {
+    "title": "iPad Pro 12.9\" M2",
+    "category": "tablet",
+    "ram": "8GB",
+    "internal_memory": "512GB SSD",
+    "cpu": "Apple M2",
+    "gpu": "Integrated",
+    "optionals": [
+      "Apple Pencil 2",
+      "Magic Keyboard"
+    ],
+    "price": 1399,
+    "description": "Tablet professionale con chip M2 e display Liquid Retina XDR",
+    "id": 11,
+    "createdAt": "2025-09-17T20:42:21.537Z",
+    "updatedAt": "2025-09-17T20:42:21.537Z"
+  },
+  {
+    "title": "Samsung Galaxy Tab S9 Ultra",
+    "category": "tablet",
+    "ram": "12GB",
+    "internal_memory": "1TB",
+    "cpu": "Snapdragon 8 Gen 2",
+    "gpu": "Adreno 740",
+    "optionals": [
+      "S-Pen",
+      "120Hz AMOLED"
+    ],
+    "price": 1299,
+    "description": "Tablet Android top di gamma con display da 14.6 pollici",
+    "id": 12,
+    "createdAt": "2025-09-17T20:42:44.759Z",
+    "updatedAt": "2025-09-17T20:42:44.759Z"
+  },
+  {
+    "title": "Apple Watch Ultra 2",
+    "category": "wearable",
+    "ram": "2GB",
+    "internal_memory": "64GB",
+    "cpu": "Apple S9",
+    "gpu": "Integrated",
+    "optionals": [
+      "GPS",
+      "Blood Oxygen Sensor"
+    ],
+    "price": 899,
+    "description": "Smartwatch rugged per sport estremi e tracking avanzato",
+    "id": 13,
+    "createdAt": "2025-09-17T20:43:18.210Z",
+    "updatedAt": "2025-09-17T20:43:18.210Z"
+  },
+  {
+    "title": "LG UltraGear 32GQ950",
+    "category": "monitor",
+    "ram": "N/A",
+    "internal_memory": "N/A",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "optionals": [
+      "Nano IPS",
+      "HDMI 2.1",
+      "DisplayHDR 1000"
+    ],
+    "price": 1099,
+    "description": "Monitor 4K da gaming con refresh rate a 144Hz",
+    "id": 14,
+    "createdAt": "2025-09-17T20:44:53.269Z",
+    "updatedAt": "2025-09-17T20:44:53.269Z"
+  },
+  {
+    "title": "Ubiquiti UniFi Dream Machine Pro",
+    "category": "networking",
+    "ram": "4GB",
+    "internal_memory": "16GB Flash",
+    "cpu": "Quad-core ARM Cortex-A57",
+    "gpu": "N/A",
+    "cooling": "Fan",
+    "optionals": [
+      "Firewall",
+      "VPN",
+      "Cloud Management"
+    ],
+    "price": 499,
+    "description": "Router e controller di rete all-in-one per ambienti professionali",
+    "id": 15,
+    "createdAt": "2025-09-17T20:45:10.186Z",
+    "updatedAt": "2025-09-17T20:45:10.186Z"
+  },
+  {
+    "title": "Sony WH-1000XM5",
+    "category": "audio",
+    "ram": "N/A",
+    "internal_memory": "N/A",
+    "cpu": "Integrated DSP",
+    "gpu": "N/A",
+    "optionals": [
+      "Noise Cancelling",
+      "Multipoint Bluetooth"
+    ],
+    "price": 399,
+    "description": "Cuffie wireless con cancellazione attiva del rumore e audio Hi-Res",
+    "id": 16,
+    "createdAt": "2025-09-17T20:45:58.013Z",
+    "updatedAt": "2025-09-17T20:45:58.013Z"
+  },
+  {
+    "title": "Western Digital Black SN850X",
+    "category": "storage",
+    "ram": "N/A",
+    "internal_memory": "2TB",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "cooling": "Heatsink",
+    "optionals": [
+      "PCIe Gen4",
+      "Dashboard Software"
+    ],
+    "price": 249,
+    "description": "SSD NVMe ad alte prestazioni per gaming e editing",
+    "id": 17,
+    "createdAt": "2025-09-17T20:46:21.020Z",
+    "updatedAt": "2025-09-17T20:46:21.020Z"
+  },
+  {
+    "title": "Garmin Fenix 7X Pro",
+    "category": "wearable",
+    "ram": "1GB",
+    "internal_memory": "32GB",
+    "cpu": "ARM Cortex-M",
+    "gpu": "Integrated",
+    "optionals": [
+      "Solar Charging",
+      "Pulse Ox"
+    ],
+    "price": 799,
+    "description": "Smartwatch multisport con mappe, musica e ricarica solare",
+    "id": 18,
+    "createdAt": "2025-09-17T20:50:56.385Z",
+    "updatedAt": "2025-09-17T20:50:56.385Z"
+  },
+  {
+    "title": "Dell UltraSharp U2723QE",
+    "category": "monitor",
+    "ram": "N/A",
+    "internal_memory": "N/A",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "optionals": [
+      "USB-C Hub",
+      "Factory Calibration"
+    ],
+    "price": 699,
+    "description": "Monitor professionale 4K con colori precisi e connettività avanzata",
+    "id": 19,
+    "createdAt": "2025-09-17T20:51:55.927Z",
+    "updatedAt": "2025-09-17T20:51:55.927Z"
+  },
+  {
+    "title": "TP-Link Archer AX11000",
+    "category": "networking",
+    "ram": "1GB",
+    "internal_memory": "N/A",
+    "cpu": "1.8GHz Quad-core",
+    "gpu": "N/A",
+    "optionals": [
+      "Tri-Band Wi-Fi 6",
+      "Game Accelerator"
+    ],
+    "price": 399,
+    "description": "Router da gaming ad alte prestazioni con Wi-Fi 6 e QoS avanzato",
+    "id": 20,
+    "createdAt": "2025-09-17T20:52:30.861Z",
+    "updatedAt": "2025-09-17T20:52:30.861Z"
+  },
+  {
+    "title": "Bose QuietComfort Ultra",
+    "category": "audio",
+    "ram": "N/A",
+    "internal_memory": "N/A",
+    "cpu": "Custom DSP",
+    "gpu": "N/A",
+    "optionals": [
+      "Immersive Audio",
+      "Touch Controls"
+    ],
+    "price": 429,
+    "description": "Cuffie premium con audio spaziale e comfort superiore",
+    "id": 21,
+    "createdAt": "2025-09-17T20:52:57.760Z",
+    "updatedAt": "2025-09-17T20:52:57.760Z"
+  },
+  {
+    "title": "Samsung T7 Shield",
+    "category": "storage",
+    "ram": "N/A",
+    "internal_memory": "1TB",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "optionals": [
+      "Rugged Design",
+      "USB 3.2 Gen2"
+    ],
+    "price": 139,
+    "description": "SSD portatile resistente ad acqua e urti, ideale per creator in movimento",
+    "id": 22,
+    "createdAt": "2025-09-17T20:53:15.801Z",
+    "updatedAt": "2025-09-17T20:53:15.801Z"
+  },
+  {
+    "title": "Lenovo Tab P12 Pro",
+    "category": "tablet",
+    "ram": "8GB",
+    "internal_memory": "256GB",
+    "cpu": "Snapdragon 870",
+    "gpu": "Adreno 650",
+    "optionals": [
+      "Precision Pen",
+      "Dolby Vision"
+    ],
+    "price": 799,
+    "description": "Tablet Android con display AMOLED e supporto penna",
+    "id": 23,
+    "createdAt": "2025-09-17T20:54:55.252Z",
+    "updatedAt": "2025-09-17T20:54:55.252Z"
+  },
+  {
+    "title": "Microsoft Surface Pro 9",
+    "category": "tablet",
+    "ram": "16GB",
+    "internal_memory": "512GB SSD",
+    "cpu": "Intel Core i7",
+    "gpu": "Integrated",
+    "optionals": [
+      "Surface Pen",
+      "Detachable Keyboard"
+    ],
+    "price": 1499,
+    "description": "Tablet 2-in-1 con Windows 11 e prestazioni da laptop",
+    "id": 24,
+    "createdAt": "2025-09-17T20:55:27.869Z",
+    "updatedAt": "2025-09-17T20:55:27.869Z"
+  },
+  {
+    "title": "Fitbit Sense 2",
+    "category": "wearable",
+    "ram": "512MB",
+    "internal_memory": "4GB",
+    "cpu": "Custom Fitbit SoC",
+    "gpu": "Integrated",
+    "optionals": [
+      "EDA Sensor",
+      "Sleep Tracking"
+    ],
+    "price": 299,
+    "description": "Smartwatch per benessere con sensori avanzati e GPS",
+    "id": 25,
+    "createdAt": "2025-09-17T20:55:54.801Z",
+    "updatedAt": "2025-09-17T20:55:54.801Z"
+  },
+  {
+    "title": "Huawei Watch GT 4",
+    "category": "wearable",
+    "ram": "1GB",
+    "internal_memory": "16GB",
+    "cpu": "Kirin A1",
+    "gpu": "Integrated",
+    "optionals": [
+      "Heart Rate Monitor",
+      "SpO2 Tracking"
+    ],
+    "price": 349,
+    "description": "Smartwatch elegante con autonomia fino a 14 giorni",
+    "id": 26,
+    "createdAt": "2025-09-17T21:11:28.929Z",
+    "updatedAt": "2025-09-17T21:11:28.929Z"
+  },
+  {
+    "title": "ASUS ProArt Display PA278CV",
+    "category": "monitor",
+    "ram": "N/A",
+    "internal_memory": "N/A",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "optionals": [
+      "Factory Calibrated",
+      "USB-C Power Delivery"
+    ],
+    "price": 499,
+    "description": "Monitor per creator con alta fedeltà cromatica e ergonomia",
+    "id": 27,
+    "createdAt": "2025-09-17T21:11:57.836Z",
+    "updatedAt": "2025-09-17T21:11:57.836Z"
+  },
+  {
+    "title": "BenQ EX3501R",
+    "category": "monitor",
+    "ram": "N/A",
+    "internal_memory": "N/A",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "optionals": [
+      "Curved Display",
+      "HDR10"
+    ],
+    "price": 649,
+    "description": "Monitor ultrawide curvo per produttività e intrattenimento",
+    "id": 28,
+    "createdAt": "2025-09-17T21:12:18.435Z",
+    "updatedAt": "2025-09-17T21:12:18.435Z"
+  },
+  {
+    "title": "Netgear Nighthawk AX12",
+    "category": "networking",
+    "ram": "1GB",
+    "internal_memory": "N/A",
+    "cpu": "1.8GHz Quad-core",
+    "gpu": "N/A",
+    "optionals": [
+      "Wi-Fi 6",
+      "Beamforming"
+    ],
+    "price": 349,
+    "description": "Router potente per streaming 4K e gaming online",
+    "id": 29,
+    "createdAt": "2025-09-17T21:12:48.164Z",
+    "updatedAt": "2025-09-17T21:12:48.164Z"
+  },
+  {
+    "title": "ASUS RT-AX88U",
+    "category": "networking",
+    "ram": "1GB",
+    "internal_memory": "N/A",
+    "cpu": "Quad-core 1.8GHz",
+    "gpu": "N/A",
+    "optionals": [
+      "Adaptive QoS",
+      "AiProtection"
+    ],
+    "price": 299,
+    "description": "Router Wi-Fi 6 con sicurezza integrata e prestazioni elevate",
+    "id": 30,
+    "createdAt": "2025-09-17T21:13:13.022Z",
+    "updatedAt": "2025-09-17T21:13:13.022Z"
+  },
+  {
+    "title": "Sennheiser Momentum 4 Wireless",
+    "category": "audio",
+    "ram": "N/A",
+    "internal_memory": "N/A",
+    "cpu": "Custom DSP",
+    "gpu": "N/A",
+    "optionals": [
+      "Adaptive Noise Cancelling",
+      "Smart Pause"
+    ],
+    "price": 379,
+    "description": "Cuffie wireless con audio bilanciato e autonomia estesa",
+    "id": 31,
+    "createdAt": "2025-09-17T21:13:29.601Z",
+    "updatedAt": "2025-09-17T21:13:29.601Z"
+  },
+  {
+    "title": "Apple AirPods Max",
+    "category": "audio",
+    "ram": "N/A",
+    "internal_memory": "N/A",
+    "cpu": "Apple H1",
+    "gpu": "N/A",
+    "optionals": [
+      "Spatial Audio",
+      "Digital Crown"
+    ],
+    "price": 629,
+    "description": "Cuffie over-ear con audio spaziale e design premium",
+    "id": 32,
+    "createdAt": "2025-09-17T21:14:03.270Z",
+    "updatedAt": "2025-09-17T21:14:03.270Z"
+  },
+  {
+    "title": "Crucial X9 Pro Portable SSD",
+    "category": "storage",
+    "ram": "N/A",
+    "internal_memory": "2TB",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "optionals": [
+      "USB-C 10Gbps",
+      "AES Encryption"
+    ],
+    "price": 189,
+    "description": "SSD portatile ad alte prestazioni per backup e trasferimenti",
+    "id": 33,
+    "createdAt": "2025-09-17T21:14:56.388Z",
+    "updatedAt": "2025-09-17T21:14:56.388Z"
+  },
+  {
+    "title": "SanDisk Extreme Portable SSD V2",
+    "category": "storage",
+    "ram": "N/A",
+    "internal_memory": "1TB",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "optionals": [
+      "IP55 Rating",
+      "Password Protection"
+    ],
+    "price": 159,
+    "description": "SSD compatto e resistente per creator e viaggiatori",
+    "id": 34,
+    "createdAt": "2025-09-17T21:15:27.964Z",
+    "updatedAt": "2025-09-17T21:15:27.964Z"
   }
 ]
