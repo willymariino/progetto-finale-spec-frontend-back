@@ -9,4 +9,6 @@ export type Product = {
     optionals: string[];
     price: number;
     description: string;
+    slug: string;
+    image?: string;
 };

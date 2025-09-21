@@ -17,6 +17,8 @@ export const ProductSchema = z.object({
   optionals: z.array(z.string()),
   price: z.number(),
   description: z.string(),
+  slug: z.string(),
+  image: z.string().optional(),
 }).strict(); // Add strict mode to reject extra properties
 
 
