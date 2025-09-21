@@ -198,11 +198,12 @@ const loadPromises = resourceTypes.map(type => {
     });
 
     // 📌 **GET /:resource/:id - Get a specific resource**
-    app.get(`/${pluralType}/:id`, (req, res) => {
-        const itemId = parseInt(req.params.id);
-        const item = cache[type].find((p) => p.id === itemId);
+    app.get(`/${pluralType}/slug/:slug`, (req, res) => {
+        const { slug } = req.params;
+        const item = cache[type].find((p) => p.slug === slug);
+
         if (!item) {
-            return res.status(404).json({ success: false, message: `${type} with id '${itemId}' not found.` });
+            return res.status(404).json({ success: false, message: `${type} with slug '${slug}' not found.` });
         }
         res.json({ success: true, [type]: item });
     });
@@ -301,7 +302,7 @@ const loadPromises = resourceTypes.map(type => {
         }
 
         res.json(filteredItems.map(
-            ({ id, createdAt, updatedAt, title, category, price }) => ({ id, createdAt, updatedAt, title, category, price })
+            ({ id, createdAt, updatedAt, title, category, price, slug }) => ({ id, createdAt, updatedAt, title, category, price, slug })
         ));
     });
 
