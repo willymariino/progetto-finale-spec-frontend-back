@@ -318,7 +318,7 @@ Promise.all(loadPromises)
             resourceTypes.forEach(type => {
                 console.log(`   - /${getPlural(type)} (risorsa ${type})`);
             });
-            console.log(`✅ Server in ascolto su http://localhost:${PORT}`);
+            console.log(`✅ Server avviato sulla porta ${PORT}`);
         });
     })
     .catch((error) => {
